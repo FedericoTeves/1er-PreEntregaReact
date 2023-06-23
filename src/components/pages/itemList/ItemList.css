@@ -1,0 +1,14 @@
+.container-saludo {
+  background-color: rgb(232, 215, 241);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 110px);
+  flex-direction: column;
+}
+
+.container-saludo h2 {
+  margin-bottom: 20px;
+}

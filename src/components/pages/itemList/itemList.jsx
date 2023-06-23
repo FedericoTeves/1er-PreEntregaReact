@@ -1,16 +1,15 @@
-const itemList = ({ saludo, cambiarSaludo, cambiarNombre }) => {
-  let nombreUsuario = "Roxana";
+import "./ItemList.css";
+
+const ItemList = ({ saludo, cambiarSaludo }) => {
+  //let nombreUsuario = "Roxana";
 
   return (
-    <div>
+    <div className="container-saludo">
       <h2>{saludo}</h2>
       <button onClick={() => cambiarSaludo("En que la puedo ayudar?")}>
         Cambiar saludo
       </button>
-      <button onClick={() => cambiarNombre(nombreUsuario)}>
-        Cambiar Nombre
-      </button>
     </div>
   );
 };
-export default itemList;
+export default ItemList;
