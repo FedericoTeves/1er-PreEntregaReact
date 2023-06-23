@@ -1,5 +1,22 @@
+import "./NavBar.css";
+
 const Navbar = () => {
-  return <div>Este es el navbar</div>;
+  return (
+    <div className="NavBar">
+      <div className="logo">
+        <img src="../../../../img/logo.png" alt="Logo" />
+      </div>
+      <div className="Nav">
+        <ul>
+          <li>Inicio</li>
+          <li>Productos</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+
+      <cartWidget />
+    </div>
+  );
 };
 
 export default Navbar;
